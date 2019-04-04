@@ -1,0 +1,52 @@
+﻿@charset "UTF-8";
+
+form {
+	position: absolute;
+	left: 65%;
+	width: 400 px;
+	margin: auto;
+}
+
+input {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12pt;
+	color: #6CA6CD;
+	background-color:rgba(255,255,240,0.8);
+}
+
+fieldset {
+	width: 400px; 
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+fieldset#mensagem {
+	margin-bottom: 3px;
+}
+
+legend {
+	color: #000000;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: sans-serif;
+}
+
+fieldset#botoes input {
+	width: 150px;
+	height: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-radius: 15px;
+	background-color: rgba(70,130,180,0.6);
+}
+
+form fieldset#login p a#link-login {
+	text-decoration: none;
+	size: 12pt;
+	color: #4169E1;
+}
+
+form fieldset#login p a#link-login:hover {
+	color: #00008B;
+}

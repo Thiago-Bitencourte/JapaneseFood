@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media screen {
+	
+	asside#produtos {
+		width: 800px;
+	}
+	
+	table td.1 {
+		width: 200px;
+	}
+	
+	table td.2 {
+		width: 400px;
+	}
+	
+	table td.3 {
+		width: 200px;
+	}
+}
